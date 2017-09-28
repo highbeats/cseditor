@@ -1,0 +1,183 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  /*font-family: Rosarivo, Poly, Open Sans, Source Serif Pro, Helvetica Neue, Helvetica, Arial, Georgia, sans-serif;*/
+  font-family: Open Sans, Source Serif Pro, Helvetica Neue, Helvetica, Arial, Georgia, sans-serif;
+  background: #fff;
+  font-size: 16px;
+  line-height: 1.45;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+input:focus {
+  outline: none;
+}
+
+#app {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 1em 0;
+}
+
+.index {
+  max-width: 45em;
+  margin: 0 auto;
+  padding: 1em;
+  background: #fff;
+  border: rgba(153, 153, 153, .5);
+  box-sizing: border-box;
+}
+
+.index .public-DraftEditor-content div > div {
+  max-width: 40em;
+
+}
+/*
+.index .public-DraftEditor-content div > div span:first-of-type:first-letter  {
+
+  font-size: 4em;
+  color: #cc1221;
+  float: left;
+}
+*/
+
+.index figure {
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+
+}
+
+.index figure img {
+  cursor: zoom-in;
+}
+
+.index h1 {font-size: 2.5em; }
+.index h2 {font-size: 2em; }
+.index h1, .index h2 {
+  font-family: Roboto, Source Serif Pro, Work Sans;
+  font-weight: bold;
+}
+.index code {
+  color: #000;
+  background: #eee;
+  border: 1px solid #ddd;
+}
+/* Also needed for dropcap
+span[data-text=true] {
+  display: block;
+}
+*/
+
+/* DROPCAP!! :D
+.index div[data-block=true] span[data-text=true]:first-of-type::first-letter {
+  color: #903;
+  float: left;
+  font-family: Georgia;
+  font-size: 4rem;
+  line-height: .9;
+  padding-top: 2px;
+  padding-right: 8px;
+  padding-left: 3px;
+  initial-letter: 2;
+}
+*/
+.index div[data-block=true] {
+  font-family: Source Serif Pro;
+  font-size: 1.250rem;
+  line-height: 1.55;
+
+}
+
+.index blockquote {
+  font-weight: bold;
+  font-size: 1.3rem;
+  line-height: 1.6;
+  border-left: 2px solid ;
+  padding: .625em 1em;
+  font-family: Source Serif Pro;
+  background-color: mintcream;
+}
+
+.index img {
+  margin: 15px auto;
+  border-radius: 4px;
+  background: #fff;
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+  box-shadow: rgba(220, 220, 220, 0.498039) .5em 1em 1em 0.5em;
+}
+
+.notice {
+  margin: 20px auto;
+  padding: 15px 0;
+  border: 1px solid #ddd;
+  padding: 1em;
+}
+
+.myToolbar {
+  margin: 1em auto;
+  border: 1px solid #ddd;
+  padding: .625em;
+  /*display: none;*/
+}
+.otherToolbar {
+  margin: 1em auto;
+  border: 1px solid #ddd;
+  position: absolute;
+  background: #fff;
+  -webkit-transform: translate(-10em);
+          transform: translate(-10em);
+  border-radius: 18px;
+  cursor: pointer;
+  height: 36px;
+  width: 36px;
+  line-height: 36px;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 3px 0px rgba(220,220,220,1);
+  background: #fff;
+  color: rgb(153, 153, 153);
+}
+input.insertImgUrl {
+  margin: auto;
+  padding: .625em;
+  box-sizing: border-box;
+  color: #ddd;
+}
+[contenteditable=true] {
+  margin: 1em auto;
+  padding: .625em;
+  min-height: 6em;
+}
+
+.draftJsUndoPlugin__counter__2wZYK {
+  color: rgb(153, 153, 153);
+  font-size: .7rem;
+  
+}
+
+p.frst:first-of-type::first-letter {
+  font-size: 4em;
+  color: #cc1221;
+  float: left;
+}
+/*
+ * Some colors
+ * color: #bb372a;
+ * color: #183269;
+ * color: #8d6664;
+ * color: #f44b0d;
+ * background-color: #efefef;
+*/
+article.article > p:first-of-type::first-letter {
+  font-size: 4em;
+  color: #cc1221;
+  float: left;
+}
